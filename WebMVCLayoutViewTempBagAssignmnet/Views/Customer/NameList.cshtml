@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "NameList";
+    Layout = "~/Views/Shared/_CustomLayout.cshtml";
+}
+
+<h2>Customer Names are:@ViewBag.nameList.Count</h2>
+@foreach (var name in ViewBag.namelist)
+{
+    <ul><li>@name</li></ul>
+}
+
+

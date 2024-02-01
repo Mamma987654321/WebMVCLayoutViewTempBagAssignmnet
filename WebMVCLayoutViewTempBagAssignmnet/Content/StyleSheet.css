@@ -1,0 +1,41 @@
+﻿body {
+    background-color: beige;
+    color: darkblue;
+}
+
+.topPanel {
+    position: absolute;
+    right: 2%;
+    left: 2%;
+    top: 2%;
+    width: 96%;
+    height: 20%;
+    background-color: lightcyan;
+}
+
+.mainPanel {
+    position: absolute;
+    right: 2%;
+    left: 2%;
+    top: 24%;
+    width: 96%;
+    height: 70%;
+    background-color: white;
+}
+.downPanel {
+    position: absolute;
+    right: 2%;
+    left: 2%;
+    top: 98%;
+    width: 96%;
+    height: 20%;
+    background-color: lightcyan;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
